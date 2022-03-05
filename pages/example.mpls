@@ -1,10 +1,10 @@
-# Example
+# Demo
 
-## Category
+## A Category
 
 P1.
 ---
-Problem
+Problem text
 ---
 Hint
 ---
@@ -12,18 +12,33 @@ Solution
 ===
 P2.
 ---
-$$\text{Math.}$$
+Problem with $$\text{Math.}$$.
+```
+And even code blocks.
+```
 ---
-Hint
+Hint with $math$.
 ---
-Inline $math$.
+Solution with _inline_ $\text{math}$ and __Markdown__.
 
 ## Another category
 
 P1.
 ---
-Problem
+Very long problem: blah blah blah blah blah blah blah blah blah blah blah blah 
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah!
 ---
-Hint
+Even longer hint: blah blah blah blah blah blah blah blah blah blah blah blah 
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+blah blah blah blah blah blah blah blah blah!
 ---
-Solution
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah!
