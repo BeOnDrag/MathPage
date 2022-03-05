@@ -10,9 +10,12 @@ module.exports = (eleventyConfig) => {
                 content,
                 JSON.parse(fs.readFileSync("./mathpage.json").toString())
             ),
-        dir: {
-            input: "./pages",
-            output: "./out/pages",
-        }
     });
+
+    return {
+        dir: {
+            input: "pages",
+            output: "out/pages",
+        },
+    };
 };

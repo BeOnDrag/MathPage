@@ -4,7 +4,7 @@
   "description": "A Math Problems Page Generator.",
   "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "build": "tsc && eleventy"
   },
   "author": "",
   "license": "ISC",
