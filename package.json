@@ -3,9 +3,7 @@
   "version": "0.0.0",
   "description": "A Math Problems Page Generator.",
   "main": "",
-  "scripts": {
-      "build": "tsc && eleventy"
-  },
+  "scripts": {},
   "author": "",
   "license": "ISC",
   "devDependencies": {
