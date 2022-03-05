@@ -1,0 +1,7 @@
+/dev/
+/node_modules/
+package-lock.json
+/pages/
+/out/pages/
+/out/index.html
+/parser/out/
