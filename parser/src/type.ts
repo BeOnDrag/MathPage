@@ -75,8 +75,23 @@ export class ProbList {
     }
 }
 
+class CSSConfig {
+    mainWidth = "70%";
+    mainFontSize = "18px";
+    h1FontSize = "40px";
+    h3FontSize = "20px";
+    accCatHeight = "60px";
+    accCatFontSize = "25px";
+    accSolHeight = "20px";
+    accSolFontSize = "15px";
+    lstIndent = "20px";
+    bodyColor = "#faebd7";
+    solHoverColor = "#ff9f46";
+}
+
 export class Config {
     showSolutionStr: string = "Show solution";
     siteTitle: string = "MathPage";
     newline: "\n" | "\r\n" = "\r\n";
+    css: CSSConfig = new CSSConfig();
 }

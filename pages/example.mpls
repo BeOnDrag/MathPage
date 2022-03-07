@@ -10,6 +10,13 @@ Hint
 Solution
 ???
 
+;;;
+Some _descriptions_
+- with markdown
+- and $\KaTeX$
+1. and ordered lists
+;;;
+
 ??? P2.
 Problem with $$\text{Math.}$$.
 ```

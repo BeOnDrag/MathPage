@@ -26,9 +26,23 @@ export function HTMLTemplate(list: ProbList, config: Config) {
         crossorigin="anonymous"
     ></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="../scripts/index.js"></script>
-    <link rel="stylesheet" href="../scripts/index.css" />
-    <link rel="stylesheet" href="../scripts/config.css" />
+    <script src="https://cdn.jsdelivr.net/npm/mathpage@1.0.1/out/scripts/index.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mathpage@1.0.1/out/scripts/index.css" />
+    <style>
+    :root {
+        --main-width: ${config.css.mainWidth};
+        --main-font-size: ${config.css.mainFontSize};
+        --h1-font-size: ${config.css.h1FontSize};
+        --h3-font-size: ${config.css.h3FontSize};
+        --acc-cat-height: ${config.css.accCatHeight};
+        --acc-cat-font-size: ${config.css.accCatFontSize};
+        --acc-sol-height: ${config.css.accSolHeight};
+        --acc-sol-font-size: ${config.css.accSolFontSize};
+        --lst-indent: ${config.css.lstIndent};
+        --body-color: ${config.css.bodyColor};
+        --sol-hover-color: ${config.css.solHoverColor};
+    }
+    </style>
     <meta charset="UTF-8" />
     </head>
     <body>
