@@ -1,4 +1,5 @@
 {
-    "siteTitle": "MathPage",
-    "showSolutionStr": "Show Solution."
+    "siteTitle": "MathPage Demo",
+    "showSolutionStr": "Show solution.",
+    "newline": "\r\n"
 }

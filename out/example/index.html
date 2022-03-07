@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MathPage Demo - Demo</title>
+<link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css"
+    integrity="sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ"
+    crossorigin="anonymous"
+/>
+<script
+    defer
+    src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js"
+    integrity="sha384-VQ8d8WVFw0yHhCk5E8I86oOhv48xLpnDZx5T9GogA/Y84DcCKWXDmSDfn13bzFZY"
+    crossorigin="anonymous"
+></script>
+<script
+    defer
+    src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js"
+    integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR"
+    crossorigin="anonymous"
+></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="../scripts/index.js"></script>
+<link rel="stylesheet" href="../scripts/index.css" />
+<link rel="stylesheet" href="../scripts/config.css" />
+<meta charset="UTF-8" />
+</head>
+<body>
+<div id="title">
+<h1>Demo</h1>
+<a href="../" id="home">
+<img src="../static/logo.png"/>
+</a>
+</div>
+<div id="main"><div class="cat">
+<button class="acc catbtn open">A Category</button>
+<div class="lst"><div class="prb">
+<h3 class="name">P1.</h3>
+<div class="txt">
+<p>Problem text</p>
+
+</div>
+<button class="acc sol">
+Show solution.
+<div class="hint">
+<p>Hint</p>
+
+</div>
+</button>
+<div class="soltxt">
+<p>Solution</p>
+
+</div>
+</div><div class="prb">
+<h3 class="name">P2.</h3>
+<div class="txt">
+<p>Problem with $$\text{Math.}$$.</p>
+<pre><code>And even code blocks.
+</code></pre>
+
+</div>
+<button class="acc sol">
+Show solution.
+<div class="hint">
+<p>Hint with $math$.</p>
+
+</div>
+</button>
+<div class="soltxt">
+<p>Solution with <em>inline</em> $\text{math}$ and <strong>Markdown</strong>.</p>
+
+</div>
+</div></div>
+</div><div class="cat">
+<button class="acc catbtn open">Another category</button>
+<div class="lst"><div class="desc">
+<p>Some <em>descriptions</em></p>
+<ul>
+<li>with markdown</li>
+<li>and $\KaTeX$</li>
+</ul>
+<ol>
+<li>and ordered lists</li>
+</ol>
+
+</div><div class="prb">
+<h3 class="name">P1.</h3>
+<div class="txt">
+<p>Very long problem: blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah!</p>
+
+</div>
+<button class="acc sol">
+Show solution.
+<div class="hint">
+<p>Even longer hint: blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah!</p>
+
+</div>
+</button>
+<div class="soltxt">
+<p>blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah!</p>
+
+</div>
+</div></div>
+</div></div>
+</body>
+</html>

@@ -2,34 +2,42 @@
 
 ## A Category
 
-P1.
----
+??? P1.
 Problem text
----
+>>>
 Hint
----
+>>>
 Solution
-===
-P2.
----
+???
+
+??? P2.
 Problem with $$\text{Math.}$$.
 ```
 And even code blocks.
 ```
----
+>>>
 Hint with $math$.
----
+>>>
 Solution with _inline_ $\text{math}$ and __Markdown__.
+???
+
+@@
 
 ## Another category
 
-P1.
----
+;;;
+Some _descriptions_
+- with markdown
+- and $\KaTeX$
+1. and ordered lists
+;;;
+
+??? P1.
 Very long problem: blah blah blah blah blah blah blah blah blah blah blah blah 
 blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
 blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
 blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah!
----
+>>>
 Even longer hint: blah blah blah blah blah blah blah blah blah blah blah blah 
 blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
 blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
@@ -38,7 +46,10 @@ blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
 blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
 blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
 blah blah blah blah blah blah blah blah blah!
----
+>>>
 blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
 blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
 blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah!
+???
+
+@@
