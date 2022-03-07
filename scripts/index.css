@@ -22,7 +22,7 @@ body {
     display: flex;
     flex-direction: column;
     align-content: center;
-    width: 60%;
+    width: var(--main-width);
     border-width: 0px 1px 0px 1px;
     border-style: solid;
     flex: 1;
