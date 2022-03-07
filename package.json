@@ -1,14 +1,14 @@
 {
-  "name": "qedblog",
-  "version": "0.0.0",
+  "name": "mathpage",
+  "version": "1.0.0",
   "description": "A Math Problems Page Generator.",
-  "main": "",
+  "main": ".eleventy.js",
   "scripts": {
     "build": "eleventy",
     "update": "eleventy --incremental"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "BeOnDrag",
+  "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
     "@types/markdown-it": "^12.2.3",
@@ -19,5 +19,16 @@
   },
   "dependencies": {
     "outdent": "^0.8.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeOnDrag/MathPage.git"
+  },
+  "keywords": [
+    "eleventy-template"
+  ],
+  "bugs": {
+    "url": "https://github.com/BeOnDrag/MathPage/issues"
+  },
+  "homepage": "https://github.com/BeOnDrag/MathPage#readme"
 }
