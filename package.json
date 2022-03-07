@@ -2,7 +2,7 @@
   "name": "mathpage",
   "version": "1.0.0",
   "description": "A Math Problems Page Generator.",
-  "main": ".eleventy.js",
+  "main": "index.js",
   "scripts": {
     "build": "eleventy",
     "update": "eleventy --incremental"
